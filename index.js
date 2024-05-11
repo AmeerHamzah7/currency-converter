@@ -38,4 +38,4 @@ let amount = conversion.amount;
 let baseAmount = amount / fromCurrencyy;
 let conversionAmount = baseAmount * toCurrencyy;
 //print the conversion amount
-console.log(chalk.blue.bold(`Conversion = ${conversionAmount}`));
+console.log(chalk.blue.bold(`Conversion = ${conversionAmount.toFixed(2)}`));
